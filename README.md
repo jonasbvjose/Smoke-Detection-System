@@ -43,6 +43,16 @@ The system provides a simple, low-cost and portable solution for monitoring smok
 7. The LCD displays a smoke detection alert.
 8. Smoke level readings are also displayed through the Serial Monitor.
 
+## Pin Connections
+
+| Component | Arduino Connection |
+|---|---|
+| MQ-2 Analog Output | A0 |
+| Buzzer | D7 |
+| I2C LCD SDA | SDA |
+| I2C LCD SCL | SCL |
+| Power Supply | 5V / GND |
+
 ## Prototype
 
 ![Automated Smoking Zone Monitoring and Alerting System](Automated_Smoking_Zone_Prototype.jpeg)
